@@ -1,8 +1,8 @@
-package com.braintreepayments.cardform.utils;
+package com.citconpay.cardform.utils;
 
 import android.text.TextUtils;
 
-import com.braintreepayments.cardform.R;
+import com.citconpay.cardform.R;
 
 import java.util.regex.Pattern;
 
@@ -21,7 +21,7 @@ public enum CardType {
             3, R.string.bt_cvc, null),
     DISCOVER("^(6011|65|64[4-9]|622)\\d*",
             R.drawable.bt_ic_discover,
-            16, 16,
+            16, 19,
             3, R.string.bt_cid, null),
     AMEX("^3[47]\\d*",
             R.drawable.bt_ic_amex,

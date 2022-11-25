@@ -1,4 +1,4 @@
-package com.braintreepayments.cardform.view;
+package com.citconpay.cardform.view;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -13,9 +13,9 @@ import android.text.TextWatcher;
 import android.text.method.TransformationMethod;
 import android.util.AttributeSet;
 
-import com.braintreepayments.cardform.R;
-import com.braintreepayments.cardform.utils.CardNumberTransformation;
-import com.braintreepayments.cardform.utils.CardType;
+import com.citconpay.cardform.R;
+import com.citconpay.cardform.utils.CardNumberTransformation;
+import com.citconpay.cardform.utils.CardType;
 
 /**
  * An {@link android.widget.EditText} that displays Card icons based on the number entered.
@@ -71,7 +71,7 @@ public class CardEditText extends ErrorEditText implements TextWatcher {
     }
 
     /**
-     * @return The {@link com.braintreepayments.cardform.utils.CardType} currently entered in
+     * @return The {@link com.citconpay.cardform.utils.CardType} currently entered in
      * the {@link android.widget.EditText}
      */
     public CardType getCardType() {
@@ -103,8 +103,8 @@ public class CardEditText extends ErrorEditText implements TextWatcher {
     }
 
     /**
-     * Receive a callback when the {@link com.braintreepayments.cardform.utils.CardType} changes
-     * @param listener to be called when the {@link com.braintreepayments.cardform.utils.CardType}
+     * Receive a callback when the {@link com.citconpay.cardform.utils.CardType} changes
+     * @param listener to be called when the {@link com.citconpay.cardform.utils.CardType}
      *  changes
      */
     public void setOnCardTypeChangedListener(OnCardTypeChangedListener listener) {

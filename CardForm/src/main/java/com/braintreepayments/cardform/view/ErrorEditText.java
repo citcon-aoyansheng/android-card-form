@@ -1,4 +1,4 @@
-package com.braintreepayments.cardform.view;
+package com.citconpay.cardform.view;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -14,8 +14,8 @@ import android.view.animation.AnimationUtils;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 
-import com.braintreepayments.cardform.R;
-import com.braintreepayments.cardform.utils.VibrationHelper;
+import com.citconpay.cardform.R;
+import com.citconpay.cardform.utils.VibrationHelper;
 
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.JELLY_BEAN_MR1;

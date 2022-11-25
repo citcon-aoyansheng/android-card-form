@@ -1,4 +1,4 @@
-package com.braintreepayments.cardform.view;
+package com.citconpay.cardform.view;
 
 import android.content.Context;
 import android.os.Bundle;

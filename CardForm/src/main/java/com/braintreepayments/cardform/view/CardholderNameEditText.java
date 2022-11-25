@@ -1,4 +1,4 @@
-package com.braintreepayments.cardform.view;
+package com.citconpay.cardform.view;
 
 import android.content.Context;
 import android.text.Editable;
@@ -7,7 +7,7 @@ import android.text.InputFilter.LengthFilter;
 import android.text.InputType;
 import android.util.AttributeSet;
 
-import com.braintreepayments.cardform.R;
+import com.citconpay.cardform.R;
 
 import java.util.regex.Pattern;
 

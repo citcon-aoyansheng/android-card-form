@@ -1,4 +1,4 @@
-package com.braintreepayments.cardform.view;
+package com.citconpay.cardform.view;
 
 import android.content.Context;
 import android.telephony.PhoneNumberFormattingTextWatcher;
@@ -8,7 +8,7 @@ import android.text.InputFilter.LengthFilter;
 import android.text.InputType;
 import android.util.AttributeSet;
 
-import com.braintreepayments.cardform.R;
+import com.citconpay.cardform.R;
 
 /**
  * Input for mobile number. Validated for presence only due to the wide variation of mobile number formats worldwide.

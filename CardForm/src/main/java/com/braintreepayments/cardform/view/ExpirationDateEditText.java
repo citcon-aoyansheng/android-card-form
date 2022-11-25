@@ -1,4 +1,4 @@
-package com.braintreepayments.cardform.view;
+package com.citconpay.cardform.view;
 
 import android.content.Context;
 import android.text.Editable;
@@ -11,8 +11,8 @@ import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.braintreepayments.cardform.R;
-import com.braintreepayments.cardform.utils.DateValidator;
+import com.citconpay.cardform.R;
+import com.citconpay.cardform.utils.DateValidator;
 
 /**
  * An {@link android.widget.EditText} for entering dates, used for card expiration dates.

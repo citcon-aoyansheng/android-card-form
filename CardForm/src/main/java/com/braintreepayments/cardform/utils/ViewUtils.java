@@ -1,4 +1,4 @@
-package com.braintreepayments.cardform.utils;
+package com.citconpay.cardform.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.TypedValue;
 
-import com.braintreepayments.cardform.R;
+import com.citconpay.cardform.R;
 
 public class ViewUtils {
 

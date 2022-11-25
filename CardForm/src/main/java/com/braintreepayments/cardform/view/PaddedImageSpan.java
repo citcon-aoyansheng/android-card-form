@@ -1,4 +1,4 @@
-package com.braintreepayments.cardform.view;
+package com.citconpay.cardform.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -6,7 +6,7 @@ import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 import android.text.style.ImageSpan;
 
-import com.braintreepayments.cardform.utils.ViewUtils;
+import com.citconpay.cardform.utils.ViewUtils;
 
 public class PaddedImageSpan extends ImageSpan {
 
